@@ -119,6 +119,7 @@ Produk yang dikategorikan sebagai Discontinued memiliki hubungan linier yang san
 Kondisi status Backordered terdeteksi secara konstan apabila nilai fitur Stock berada jauh di bawah nilai batas aman pada Reorder_Level.
 
 5. DATA PREPARATION (TAHAPAN PRE-PROCESSING)
+
 5.1 Penanganan Missing Values dan Pembersihan Data Duplikat
 Untuk menjamin integritas data sebelum masuk ke tahap training model, dilakukan pembersihan nilai kosong dan penghapusan redudansi baris data:
 # Menghapus baris yang mengandung nilai kosong (null value)
